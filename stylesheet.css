@@ -1,0 +1,145 @@
+
+        
+*{
+   box-sizing: border-box;
+}
+
+   
+div{
+   background-color:black;
+   width: 33.33%;
+   border: 1px solid black;
+height: fit-content;   position: relative;
+}
+#Side{
+
+float: right;
+border: 1PX solid rgb(6, 6, 6);
+width: 120px;
+text-align: center;
+color: rgb(236, 240, 238);
+background-color: rgb(0, 81, 35);
+
+}
+/***********************************************/
+.div1{
+    float: right;
+    background-color:rgba(0, 194, 253, 0.418);
+    padding: 2px;
+   }
+
+.div2{
+   float: right;
+   background-color:rgba(0, 207, 253, 0.418);
+   padding: 2px;
+
+}
+.div3{
+   float: right;
+   background-color:rgba(0, 207, 253, 0.418);
+   padding: 2px;
+
+}
+
+/*********************************************/
+.inside{
+font-size: 25px;
+text-align: center;
+word-break: break-all;
+margin-bottom: 15px;
+word-wrap: break-word;
+margin-left: 2px;
+}
+
+
+@media (max-width: 991px)    and  (min-width: 721px)
+
+{
+.div1{
+
+width: 50%;
+background-color:rgba(0, 207, 253, 0.418);
+border: 1px solid rgb(11, 11, 11);
+height: 500px;
+position: relative;
+overflow: auto;
+float: right;
+
+}
+.div2{
+width: 50%;
+background-color:rgba(0, 207, 253, 0.418);
+border: 1px solid rgb(14, 14, 14);
+overflow: auto;
+height: 500px;
+margin-bottom: 12px;
+position: relative;
+float: right;
+
+}
+
+.div3{
+      width: 100%;
+      background-color:rgba(0, 207, 253, 0.418);
+   }
+#side{
+
+position: relative;
+border: 1PX SOLID white;
+width: 90px;
+text-align: center;
+background-color: aqua;
+
+}
+.p1{
+   left: 77%;
+}
+}
+.p2{
+left: 77%;
+}
+
+
+.p3{
+   left: 88%;
+}
+
+h1{
+   text-align: center;
+   color: darkgreen;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 50px;
+   font-style: italic;
+   font-variant: small-caps;
+}
+
+
+@media (max-width: 720px) {
+
+div{
+   width: 700px;
+   height: fit-content;
+   margin-bottom: 15px;
+}
+*{
+   clear: both;
+}
+.div1{
+   background-color: aqua;
+   border: 1px solid black;
+
+}
+.div2{
+   background-color: aqua;
+   border: 1px solid black;
+
+}
+.div3{
+   background-color: aqua;
+   border: 1px solid black;
+
+}
+}
+      
+   
+   
